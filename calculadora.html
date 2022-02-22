@@ -1,19 +1,22 @@
 <html>
+
     <head>
         <title>Calculadora em JS</title>
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <body>
-        Numero 1: <input id="num1" type="number"/> <br />
-        Numero 2: <input id="num2" type="number"/> <br />
 
-        <input type="radio" id="soma" name="calc"/>Soma <br />
-        <input type="radio" id="subtracao" name="calc"/>Subtração <br />
-        <input type="radio" id="multiplicacao" name="calc"/>Multiplicação <br />
-        <input type="radio" id="divisao" name="calc"/>Divisão <br /><br />
+    <body>
+        Primeiro Numero: <input id="num1" type="number"/> <br />
+        Segundo Numero: <input id="num2" type="number"/> <br />
+
+        <input type="radio" id="soma" name="calcular"/>Soma <br />
+        <input type="radio" id="subtracao" name="calcular"/>Subtração <br />
+        <input type="radio" id="multiplicacao" name="calcular"/>Multiplicação <br />
+        <input type="radio" id="divisao" name="calcular"/>Divisão <br /><br />
 
         <buttom onclick="main()">Clique aqui para calcular</buttom> <br />
 
-        Resposta: <div id="resp"></div>
+        Resposta do calculo é: <div id="resp"></div>
     </body>
+    
 </html>
